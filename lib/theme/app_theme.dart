@@ -5,9 +5,16 @@ class AppTheme {
 
   static final ThemeData lightTheme = ThemeData.light().copyWith(
     primaryColor: primary,
+    
+    //appBarTheme
     appBarTheme: const AppBarTheme(
       color: primary,
       elevation: 0
+    ),
+
+    //textButton
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(primary: primary) 
     )
   );
 }
