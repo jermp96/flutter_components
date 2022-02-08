@@ -17,9 +17,9 @@ class CardScreen extends StatelessWidget {
         children: const [
           CustomCardType1(),
           SizedBox(height: 10),
-          CustomCardType2(),
+          CustomCardType2(imageUrl: 'https://source.unsplash.com/random/?japan,sunday', keyword: 'japan day',),
           SizedBox(height: 10),
-          CustomCardType2()
+          CustomCardType2(imageUrl: 'https://source.unsplash.com/random/?japan,night', keyword: 'japan night',)
         ]
       )
     );
